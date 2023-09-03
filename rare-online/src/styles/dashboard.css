@@ -1,0 +1,85 @@
+.revenue__box,
+.order__box,
+.products__box,
+.users__box {
+  padding: 20px;
+  border-radius: 5px;
+}
+.revenue__box {
+  background: var(--card-bg-01);
+}
+.products__box {
+  background: var(--card-bg-03);
+}
+.order__box {
+  background: var(--card-bg-04);
+}
+.users__box {
+  background: var(--card-bg-04);
+}
+.revenue__box h5,
+.order__box h5,
+.products__box h5,
+.users__box h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+};
+.revenue__box span,
+.order__box span,
+.products__box span,
+.users__box span{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+/* Medium screens (tablets) */
+@media only screen and (max-width: 768px) {
+  .revenue__box,
+  .order__box,
+  .products__box,
+  .users__box {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .revenue__box h5,
+  .order__box h5,
+  .products__box h5,
+  .users__box h5 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .revenue__box span,
+  .order__box span,
+  .products__box span,
+  .users__box span {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Mobile phone screens (iPhone 12 Pro, iPhone XR, iPhone SE, Pixel 5) */
+@media only screen and (max-width: 480px) {
+  .revenue__box,
+  .order__box,
+  .products__box,
+  .users__box {
+    padding: 5px; /* Further reduce padding for smaller screens */
+  }
+
+  .revenue__box h5,
+  .order__box h5,
+  .products__box h5,
+  .users__box h5 {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+    margin-bottom: 10px; /* Reduce margin for smaller screens */
+  }
+
+  .revenue__box span,
+  .order__box span,
+  .products__box span,
+  .users__box span {
+    font-size: 0.6rem; /* Adjust font size for smaller screens */
+  }
+}
